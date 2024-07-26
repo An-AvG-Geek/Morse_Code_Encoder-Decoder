@@ -1,0 +1,2 @@
+morse_talk
+streamlit_option_menu
