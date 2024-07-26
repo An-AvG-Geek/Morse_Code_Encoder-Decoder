@@ -7,13 +7,13 @@ def main():
     with st.sidebar:
         choice=option_menu(menu_title="Code Converter",options=["Morse Code","Binary Code"])
 
-        if choice=="Morse Code":
-            st.title("Morse Code Converter")
-            option=option_menu(menu_title=None,options=["Encoder","Decoder"],orientation="horizontal")
-            
+    if choice=="Morse Code":
+        st.title("Morse Code Converter")
+        option=option_menu(menu_title=None,options=["Encoder","Decoder"],orientation="horizontal")
+        
 
-        elif choice=="Binary Code":
-            pass
+    elif choice=="Binary Code":
+        pass
 
 
 
